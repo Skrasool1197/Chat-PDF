@@ -17,7 +17,7 @@ from dotenv import load_dotenv
 # Load environment variables
 load_dotenv()
 
-os.environ['HUGGINGFACE_API_KEY'] = os.getenv("HUGGINGFACE_API_KEY")
+# os.environ['HUGGINGFACE_API_KEY'] = os.getenv("HUGGINGFACE_API_KEY")
 embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
 
 # Setup Streamlit page
