@@ -1,4 +1,4 @@
-# Chat-PDF
+# Chat with PDF: Interactive PDF-based Conversations
 
 ---
 license: apache-2.0
